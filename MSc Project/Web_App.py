@@ -9,7 +9,7 @@ st.set_page_config(page_title="Player Injury Risk Predictor", layout="wide")
 st.title("Player Injury Risk Prediction Dashboard")
 
 def load_model():
-    rf_model = joblib.load("final_rf_model.pkl")
+    rf_model = joblib.load("MSc Project/final_rf_model.pkl")
     return rf_model
 
 model = load_model()
