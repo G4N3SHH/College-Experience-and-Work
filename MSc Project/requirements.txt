@@ -1,7 +1,0 @@
-streamlit 
-pandas
-joblib
-matplotlib
-plotly
-numpy
-sklearn
