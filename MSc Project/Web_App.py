@@ -15,7 +15,7 @@ def load_model():
 model = load_model()
 st.success("Random Forest ML model loaded successfully!")
 
-with open("Learning files/Sample_CSV.csv","rb") as f:(
+with open("Sample_CSV.csv","rb") as f:(
         st.download_button(
         label="Download Template",
         data=f.read(),
