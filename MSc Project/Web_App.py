@@ -21,7 +21,7 @@ with open("Sample_CSV.csv","rb") as f:(
         data=f.read(),
         file_name="sample.csv",
         mime="text/csv"
-    )
+    ))
 
 st.subheader("Upload Player Match Data")
 uploaded_file = st.file_uploader("Upload your CSV file", type=["csv"])
