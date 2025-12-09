@@ -15,6 +15,13 @@ def load_model():
 model = load_model()
 st.success("Random Forest ML model loaded successfully!")
 
+with open("Sample_CSV.csv","rb") as f:(
+        st.download_button(
+        label="Download Template",
+        data=f.read(),
+        file_name="sample.csv",
+        mime="text/csv"
+    )
 
 st.subheader("Upload Player Match Data")
 uploaded_file = st.file_uploader("Upload your CSV file", type=["csv"])
